@@ -81,7 +81,10 @@ loot_options = ["Health Potion", "Poison Potion", "Secret Note", "Leather Boots"
 good_loot_options = ["Health Potion", "Leather Boots"]
 bad_loot_options = ["Poison Potion"]
 
-#lab04 - 01
+# lab 04 - 04
+belt = []
+
+# lab04 - 01
 # Define the Monster Power
 monster_power = {
     "Fire Magic":2,
