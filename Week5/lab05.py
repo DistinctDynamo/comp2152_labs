@@ -221,11 +221,11 @@ if not input_invalid:
                     
 
     # Final Score Display
-    tries = 0
+    tries=0
     input_invalid = True
     while input_invalid and tries in range(5):
         print("    |", end="    ")
-        tries+=1
+        tries += 1
         # Lab 5 - Question 1: 
         hero_name = input("Enter your Hero's name (in two words)")
         name=hero_name.split()
@@ -245,5 +245,6 @@ if not input_invalid:
 
     if not input_invalid:
         stars_display = "*" * num_stars
-        # Lab 5 - Question 2: 
+        # Lab 5 - Question 2:
+        print("    |    Hero " + short_name + "gets <" + stars_display + "> starts") 
         
