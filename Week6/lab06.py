@@ -198,7 +198,7 @@ if not input_invalid:
                 combat_strength += crazy_level
                 print("Combat strength: " + str(combat_strength))
                 print("Health point: " + str(health_points))
-        print("num dream lvs:" + num_dream_lvls)
+        print("num dream lvs:", num_dream_lvls)
 
     if num_dream_lvls != 0:
         health_points -= 1
