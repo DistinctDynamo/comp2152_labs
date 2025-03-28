@@ -11,7 +11,7 @@ class Person(Mammal):
 
     def __init__(self, p_name, p_age, p_height):
         # Lab 12 - Call the parent class constructor
-
+        Mammal.__init__(self,p_age)
         # Set the Person-specific fields
         print("Constructor: Adding the Person parts of a person")
         self.name=p_name

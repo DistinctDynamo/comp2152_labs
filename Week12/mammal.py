@@ -30,7 +30,6 @@ class Mammal:
         if self.tick:
             self.tick.suck_blood()
     
-
     def __str__(self):
         tick_status = "attached" if self.tick else "none"
         return f"Mammal(age={self.age}, live_birth={self.__live_birth}, tick={tick_status}, heart_bpm={self.heart.bpm})"
