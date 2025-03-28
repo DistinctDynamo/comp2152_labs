@@ -3,7 +3,7 @@ from heart import Heart
 class Mammal:
     def __init__(self,p_age,tick=None):  # Aggregation through parameter
         print("Constructor: Inside the Parent class constructor: Making the Mammal part of the object")
-        self.page = p_age
+        self.age = p_age
         self.__live_birth = True
 
         self.heart = Heart()
